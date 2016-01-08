@@ -4,9 +4,11 @@ public void setup()
     noLoop(); 
     for(int i = 2; i < e.length() - 10; i++)
     {
-    	if(isPrime(Double.parseDouble(e.substring(i,i+10))));
+    	if(isPrime(Double.parseDouble(e.substring(i,i+10)))){
     		System.out.println(e.substring(i,i+10));
-
+    		break;
+    	}
+    	
     } 
 }  
 public void draw()  
